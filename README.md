@@ -10,7 +10,7 @@ To make a new build, you need `podman` and `make` to be installed!
 make package
 ```
 
-## Install existing build:
+## Install existing build
 
 ```
 make install
@@ -23,13 +23,13 @@ sudo tar xzvf ./dist/xpilot-ng-*.tar.gz -C /usr/local
 
 ```
 
-## Install user config:
+## Install user config
 
 ```
 make download-user-config
 ```
 
-## Run a server:
+## Run a server
 
 ```
 /usr/local/bin/xpilot-ng-server -map /usr/local/share/xpilot-ng/maps/draemmap2.xp
